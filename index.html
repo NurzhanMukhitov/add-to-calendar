@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить событие</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 15px 0;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #FF4C4C; /* Красный цвет кнопок */
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        a:hover {
+            background-color: #CC0000; /* Тёмно-красный цвет при наведении */
+            transform: scale(1.05); /* Лёгкое увеличение кнопки */
+        }
+    </style>
+</head>
+<body>
+    <h1>Добавить событие в календарь</h1>
+    <ul>
+        <li>
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=SPEAKER+PAJAMA+PARTY&dates=20250120T180000Z/20250121T010000Z&details=Описание&location=OMEGA+ROOFTOP" target="_blank">
+                Добавить в Google Calendar
+            </a>
+        </li>
+        <li>
+            <a href="https://outlook.live.com/calendar/0/deeplink/compose?subject=SPEAKER+PAJAMA+PARTY&body=Описание+события&startdt=2025-01-20T18:00:00&enddt=2025-01-21T01:00:00&location=OMEGA+ROOFTOP" target="_blank">
+                Добавить в Outlook Calendar
+            </a>
+        </li>
+        <li>
+            <a href="https://calendar.mail.ru/?action=create&title=SPEAKER+PAJAMA+PARTY&details=Описание&location=OMEGA+ROOFTOP&start=20250120T180000Z&end=20250121T010000Z" target="_blank">
+                Добавить в Mail.ru Календарь
+            </a>
+        </li>
+    </ul>
+</body>
+</html>
